@@ -51,6 +51,19 @@ I tested only on the version i have: `B.0.10.8.05` but might work on other versi
 	$game_NPC_actors["Cocona"].write_sex_record_vag(["DataNpcName:race/#{tgtRace}" , "DataNpcName:part/penis"])
 ```
 
+## How to check if Cono 
+
+Open your game, load you save
+Press F10 to open debug panel
+Paste `msgbox($story_stats["RecQuestCoconaVagTaken"])` and press enter
+
+This will show in which step Cocona are.
+If it's `-1`, the mod will work as intended if the other conditions are met
+If it's `0` you didnt get the mission of the church yet
+If it's `2` Cocona is able to learn how to prostitute herself.
+If it's `3` Cocona already learned, and you dont need to teach the first time.
+Press F10 to leave the debug panel after closing the box.
+
 ## Have ideas?
 
 Feel free to tell me suggestions ^^ and all cudos to LonaRPG devs for this great game!

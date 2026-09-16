@@ -1,0 +1,8 @@
+{
+  "id": "CoconaProstitutionBypass",
+  "version": 1.0,
+  "name": "CoconaProstitutionBypass",
+  "description": "Makes Cocona be curious about your prostitution work, right after beign bullied in the bath and having at least one orgasm!\nAnd as a bonus, a code fix to correct the register of the costumer race when she works as prostitute.",
+  "texts": "Text",
+  "entry": "loader.rb"
+}
